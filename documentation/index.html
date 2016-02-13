@@ -1,0 +1,340 @@
+<!doctype html>  
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	
+	<title>Kingpabel Scheduler</title>
+	
+	<meta name="description" content="Kingpabel Scheduler application.By using this application you can manage your appointment or your company event or scheduling your daily or monthly tasks and can get reminder for particular event.You can found very easily your appointment in calendar view and also update them in that calendar view. ">
+	<meta name="author" content="Kingpabel">
+	<meta name="copyright" content="Kingpabel">
+	<meta name="generator" content="Documenter v2.0 http://rxa.li/documenter">
+	<meta name="date" content="2015-12-26T00:00:00+01:00">
+	
+	<link rel="stylesheet" href="assets/css/documenter_style.css" media="all">
+	<link rel="stylesheet" href="assets/js/google-code-prettify/prettify.css" media="screen">
+	<script src="assets/js/google-code-prettify/prettify.js"></script>
+
+	
+	
+	<script src="assets/js/jquery.js"></script>
+	
+	<script src="assets/js/jquery.scrollTo.js"></script>
+	<script src="assets/js/jquery.easing.js"></script>
+	
+	<script>document.createElement('section');var duration='500',easing='swing';</script>
+	<script src="assets/js/script.js"></script>
+	
+	<style>
+		html{background-color:#FFFFFF;color:#383838;}
+		::-moz-selection{background:#444444;color:#DDDDDD;}
+		::selection{background:#444444;color:#DDDDDD;}
+		#documenter_sidebar #documenter_logo{background-image:url();}
+		a{color:#0000FF;}
+		.btn {
+			border-radius:3px;
+		}
+		.btn-primary {
+			  background-image: -moz-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -ms-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -webkit-gradient(linear, 0 0, 0 0088CC%, from(#DDDDDD), to(#0044CC));
+			  background-image: -webkit-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -o-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: linear-gradient(top, #0088CC, #0044CC);
+			  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0088CC', endColorstr='#0044CC', GradientType=0);
+			  border-color: #0044CC #0044CC #bfbfbf;
+			  color:#FFFFFF;
+		}
+		.btn-primary:hover,
+		.btn-primary:active,
+		.btn-primary.active,
+		.btn-primary.disabled,
+		.btn-primary[disabled] {
+		  border-color: #0088CC #0088CC #bfbfbf;
+		  background-color: #0044CC;
+		}
+		hr{border-top:1px solid #EBEBEB;border-bottom:1px solid #FFFFFF;}
+		#documenter_sidebar, #documenter_sidebar ul a{background-color:#DDDDDD;color:#222222;}
+		#documenter_sidebar ul a{-webkit-text-shadow:1px 1px 0px #EEEEEE;-moz-text-shadow:1px 1px 0px #EEEEEE;text-shadow:1px 1px 0px #EEEEEE;}
+		#documenter_sidebar ul{border-top:1px solid #AAAAAA;}
+		#documenter_sidebar ul a{border-top:1px solid #EEEEEE;border-bottom:1px solid #AAAAAA;color:#444444;}
+		#documenter_sidebar ul a:hover{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+		#documenter_sidebar ul a.current{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+		#documenter_copyright{display:block !important;visibility:visible !important;}
+	</style>
+	
+</head>
+<body class="documenter-project-kingpabel-scheduler">
+	<div id="documenter_sidebar">
+		<a href="#documenter_cover" id="documenter_logo"></a>
+		<ul id="documenter_nav">
+			<li><a class="current" href="#documenter_cover">Start</a></li>
+				
+			<li><a href="#installation" title="Installation">Installation</a></li>
+			<li><a href="#create_account_log_in" title="Create Account/Log IN">Create Account/Log IN</a></li>
+			<li><a href="#dashboard" title="Dashboard">Dashboard</a></li>
+			<li><a href="#event" title="Event">Event</a></li>
+			<li><a href="#create_event" title="Create Event">Create Event</a></li>
+			<li><a href="#table_event" title="Table Event">Table Event</a></li>
+			<li><a href="#trash" title="Trash">Trash</a></li>
+			<li><a href="#settings" title="Settings">Settings</a></li>
+			<li><a href="#report" title="Report">Report</a></li>
+			<li><a href="#update_v1_to_v2" title="Update V1 to V2">Update V1 to V2</a></li>
+
+		</ul>
+		<div id="documenter_copyright">Copyright Kingpabel 2015<br>
+		made with the <a href="http://rxa.li/documenter">Documenter v2.0</a> 
+		</div>
+	</div>
+	<div id="documenter_content">
+	<section id="documenter_cover">
+	<h1>Kingpabel Scheduler</h1>
+	
+	<div id="documenter_buttons">
+		
+	</div>
+	<hr>
+	<ul>
+	<li>created: 03/29/2015</li>
+	<li>latest update: 12/26/2015</li>
+	<li>by: Kingpabel</li>
+	<li><a href=""></a></li>
+	<li>email: <a href="mailto:&#105;&#109;&#116;&#105;&#97;&#122;&#112;&#97;&#98;&#101;&#108;&#64;&#121;&#97;&#104;&#111;&#111;&#46;&#99;&#111;&#109;">&#105;&#109;&#116;&#105;&#97;&#122;&#112;&#97;&#98;&#101;&#108;&#64;&#121;&#97;&#104;&#111;&#111;&#46;&#99;&#111;&#109;</a></li>
+	</ul>
+	<p></p>
+	</section>
+	
+	<section id="installation">
+	<div class="page-header"><h3>Installation</h3><hr class="notop"></div>
+<div class="alert">
+	<span style="color: rgb(56, 56, 56); font-family: Arial, verdana, arial, sans-serif; background-color: rgb(252, 248, 227);">At first collect the sql file,which is already provided.Then import it in your hosting phpmyadmin.Then just hit the projct on your browser and you will get installtion form to install easily.</span></div>
+<p>
+	<img alt="Appoinment Scheduling system installation" src="assets/images/image_6.png" style="width: 324px; height: 294px;"></p>
+<p>
+	<span style="color: rgb(56, 56, 56); font-family: Arial, verdana, arial, sans-serif; line-height: 18px;">Give your information and click install.Installation is done.</span></p>
+<p>
+	&nbsp;</p>
+<div class="alert alert-info">
+	<span style="color: rgb(58, 135, 173); font-family: Arial, verdana, arial, sans-serif; background-color: rgb(217, 237, 247);">If you want to change again after installation once,just go to .env file on your project root,and give your information that&#39;s it.<br>
+	<br>
+	If you wanna change your project url again,then just go project root/index.php and then change project url.</span></div>
+</section>
+<section id="create_account_log_in">
+	<div class="page-header"><h3>Create Account/Log IN</h3><hr class="notop"></div>
+<div class="alert">
+	If you already created an account and you have the credential,then just login using credential.</div>
+<p>
+	<img alt="Kingpabel Scheduler Image" src="assets/images/image_4.png" style="width: 380px; height: 294px;"></p>
+<p>
+	&nbsp;</p>
+<div class="alert alert-info">
+	If you are not created account yet,just click on &quot;create an accoun&quot; from landing page and then create an account using information,then log in.</div>
+<p>
+	<img alt="" src="assets/images/image_7.png" style="width: 367px; height: 477px;"></p>
+</section>
+<section id="dashboard">
+	<div class="page-header"><h3>Dashboard</h3><hr class="notop"></div>
+<div class="alert alert-info">
+	After login you found <strong>dashboard</strong>.In dashboard you will found &nbsp;current&nbsp;<strong>month total event</strong>,<strong>last and next month total event</strong> which you already created.</div>
+<p class="alert alert-success">
+	&nbsp;</p>
+<div class="alert alert-info">
+	<span style="color: rgb(58, 135, 173); background-color: rgb(217, 237, 247);">Also found a graphp for current month&nbsp;</span><strong style="color: rgb(58, 135, 173);">event in every single day</strong></div>
+<p class="alert alert-info">
+	&nbsp;</p>
+<div class="alert alert-info">
+	<span style="background-color: rgb(252, 248, 227);">Also found this year&nbsp;</span><strong>total event in a single month</strong><span style="background-color: rgb(252, 248, 227);">&nbsp;in a chart view.</span></div>
+<pre class="prettyprint lang-plain linenums">
+</pre>
+<p>
+	<img alt="Kingpabel Scheduler Dashboard Image" src="assets/images/image_3.jpg" style="width: 590px; height: 300px;"></p>
+</section>
+<section id="event">
+	<div class="page-header"><h3>Event</h3><hr class="notop"></div>
+<div class="alert alert-success">
+	After clicking <strong>event</strong> you will found a calender in calender you see your <strong>existing event which you already created</strong> with very nice <strong>day,month and week view.</strong></div>
+<p class="alert alert-success">
+	&nbsp;</p>
+<div class="alert alert-info">
+	You will got your daily event in your email.To enable this please execute this in your hosting corn jobs</div>
+<pre class="prettyprint lang-plain linenums">
+<span style="color: rgb(0, 0, 0); font-size: 11px; text-align: center; background-color: rgb(246, 248, 253);">0 0 * * * wget -O /dev/null http://yourprojecturl.com/public/account/mail-me</span></pre>
+<p class="alert alert-success">
+	&nbsp;</p>
+<div class="alert alert-info">
+	<span style="color: rgb(70, 136, 71); background-color: rgb(252, 248, 227);">You can create a&nbsp;</span><strong style="color: rgb(70, 136, 71);">new event by clicking a day in that calender</strong><span style="color: rgb(70, 136, 71); background-color: rgb(252, 248, 227);">.You can also set multiple reminder for every event.Then most interesting feature is <strong>reminder</strong>,in reminder you can set date,email,text.After set the reminder the script will send an automatically email(<strong>inputed email</strong>) in that date(<strong>inputed date</strong>) using that text(<strong>inputed text</strong>).For automatically get reminder email please set the below in your hosting corn jobs</span></div>
+<p class="alert alert-info">
+	&nbsp;</p>
+<pre class="prettyprint lang-plain linenums">
+<span style="color: rgb(0, 0, 0); font-size: 11px; text-align: center; background-color: rgb(246, 248, 253);">0 0 * * * wget -O /dev/null http://yourprojecturl.com/public/account/mail-reminder</span></pre>
+<p class="alert alert-success">
+	&nbsp;</p>
+<div class="alert alert-info">
+	<span style="color: rgb(70, 136, 71); background-color: rgb(252, 248, 227);">You can&nbsp;</span><strong style="color: rgb(70, 136, 71);">update an existing event with or without reminder by clicking an existing event in calender</strong><span style="color: rgb(70, 136, 71); background-color: rgb(252, 248, 227);">.</span></div>
+<pre class="prettyprint lang-plain linenums">
+</pre>
+<p>
+	<img alt="Kingpabel Scheduler Calender" src="assets/images/image_1.png" style="width: 500px; height: 264px;"></p>
+</section>
+<section id="create_event">
+	<div class="page-header"><h3>Create Event</h3><hr class="notop"></div>
+<div class="alert alert-info">
+	<span style="color: rgb(70, 136, 71); background-color: rgb(252, 248, 227);">In create event menu you can&nbsp;</span><strong style="color: rgb(70, 136, 71);">create event</strong><span style="color: rgb(70, 136, 71); background-color: rgb(252, 248, 227);">&nbsp;with your event&nbsp;</span><strong style="color: rgb(70, 136, 71);">title and start time and end time information if you wanna set a reminder just click on add reminder you can add multiple reminder also</strong><span style="color: rgb(70, 136, 71); background-color: rgb(252, 248, 227);">.You can also&nbsp;</span><strong style="color: rgb(70, 136, 71);">create and event in calender</strong><span style="color: rgb(70, 136, 71); background-color: rgb(252, 248, 227);">.</span></div>
+<p class="alert alert-success">
+	&nbsp;</p>
+<p class="alert alert-success">
+	&nbsp;</p>
+<pre class="prettyprint lang-plain linenums">
+</pre>
+<p>
+	<img alt="Kingpabel scheduler UpdateEvent" src="assets/images/image_2.png" style="width: 500px; height: 334px;"></p>
+</section>
+<section id="table_event">
+	<div class="page-header"><h3>Table Event</h3><hr class="notop"></div>
+<div class="alert alert-success">
+	In table event you found your <strong>existing event</strong> which you already created,you can also <strong>update them</strong> and <strong>move to trash</strong> them.</div>
+<pre class="prettyprint lang-plain linenums">
+</pre>
+<p>
+	<img alt="Kingpabel Scheduler Table Event" src="assets/images/image_5.png"  ></p>
+</section>
+<section id="trash">
+	<div class="page-header"><h3>Trash</h3><hr class="notop"></div>
+<div class="alert">
+	In trash menu you found that event which <strong>already moved to trash</strong>.You can <strong>delete them or restore them</strong>.</div>
+</section>
+<section id="settings">
+	<div class="page-header"><h3>Settings</h3><hr class="notop"></div>
+<div class="alert alert-success">
+	Two menu in settings</div>
+<div class="alert alert-success">
+	<strong>Update Info</strong></div>
+<div class="alert alert-success">
+	you can update your information&nbsp;</div>
+<div class="alert alert-success">
+	<strong>Change Password</strong></div>
+<div class="alert alert-success">
+	You can change your existing password</div>
+</section>
+<section id="report">
+	<div class="page-header"><h3>Report</h3><hr class="notop"></div>
+<div class="alert alert-success">
+	<strong>Table Report&nbsp;</strong></div>
+<div class="alert alert-success">
+	Using a start time and end time you can see a report in table view</div>
+<div class="alert alert-success">
+	<strong>Calender Report</strong></div>
+<div class="alert alert-success">
+	Using a start time and end time you can see a report in calender view</div>
+</section>
+<section id="update_v1_to_v2">
+	<div class="page-header"><h3>Update V1 to V2</h3><hr class="notop"></div>
+<div class="alert alert-info">
+	For update V1 to V2 just execute below code in your database sql.That&#39;s enough</div>
+<p class="alert alert-info">
+	&nbsp;</p>
+<pre class="prettyprint lang-js linenums">
+</pre>
+<div>
+	-- phpMyAdmin SQL Dump</div>
+<div>
+	-- version 4.0.10deb1</div>
+<div>
+	-- http://www.phpmyadmin.net</div>
+<div>
+	--</div>
+<div>
+	-- Host: localhost</div>
+<div>
+	-- Generation Time: Nov 02, 2015 at 12:22 AM</div>
+<div>
+	-- Server version: 5.5.46-0ubuntu0.14.04.2</div>
+<div>
+	-- PHP Version: 5.5.9-1ubuntu4.14</div>
+<div>
+	&nbsp;</div>
+<div>
+	SET SQL_MODE = &quot;NO_AUTO_VALUE_ON_ZERO&quot;;</div>
+<div>
+	SET time_zone = &quot;+00:00&quot;;</div>
+<div>
+	&nbsp;</div>
+<div>
+	--</div>
+<div>
+	-- Database: `scheduler`</div>
+<div>
+	--</div>
+<div>
+	&nbsp;</div>
+<div>
+	-- --------------------------------------------------------</div>
+<div>
+	&nbsp;</div>
+<div>
+	--</div>
+<div>
+	-- Table structure for table `schedule_reminder`</div>
+<div>
+	--</div>
+<div>
+	&nbsp;</div>
+<div>
+	CREATE TABLE IF NOT EXISTS `schedule_reminder` (</div>
+<div>
+	&nbsp; `id` int(10) unsigned NOT NULL AUTO_INCREMENT,</div>
+<div>
+	&nbsp; `schedule_id` int(10) unsigned NOT NULL,</div>
+<div>
+	&nbsp; `reminder_date` timestamp NOT NULL DEFAULT &#39;0000-00-00 00:00:00&#39;,</div>
+<div>
+	&nbsp; `reminder_email` text COLLATE utf8_unicode_ci NOT NULL,</div>
+<div>
+	&nbsp; `reminder_text` longtext COLLATE utf8_unicode_ci NOT NULL,</div>
+<div>
+	&nbsp; `created_by` int(11) NOT NULL,</div>
+<div>
+	&nbsp; `updated_by` int(11) NOT NULL,</div>
+<div>
+	&nbsp; `created_at` timestamp NOT NULL DEFAULT &#39;0000-00-00 00:00:00&#39;,</div>
+<div>
+	&nbsp; `updated_at` timestamp NOT NULL DEFAULT &#39;0000-00-00 00:00:00&#39;,</div>
+<div>
+	&nbsp; `deleted_at` timestamp NULL DEFAULT NULL,</div>
+<div>
+	&nbsp; PRIMARY KEY (`id`),</div>
+<div>
+	&nbsp; KEY `schedule_reminder_schedule_id_foreign` (`schedule_id`)</div>
+<div>
+	) ENGINE=InnoDB &nbsp;DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=78 ;</div>
+<div>
+	&nbsp;</div>
+<div>
+	--</div>
+<div>
+	-- Constraints for dumped tables</div>
+<div>
+	--</div>
+<div>
+	&nbsp;</div>
+<div>
+	--</div>
+<div>
+	-- Constraints for table `schedule_reminder`</div>
+<div>
+	--</div>
+<div>
+	ALTER TABLE `schedule_reminder`</div>
+<div>
+	&nbsp; ADD CONSTRAINT `schedule_reminder_schedule_id_foreign` FOREIGN KEY (`schedule_id`) REFERENCES `schedule` (`id`);</div>
+<div>
+	&nbsp;</div>
+</section>
+
+	</div>
+</body>
+</html>

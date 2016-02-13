@@ -1,0 +1,21 @@
+.hr-clr-green{
+    border-color: green;
+}
+
+.reminder-cross{
+    cursor: pointer;
+    margin-top: 2%;
+}
+
+.reminder-cross-table{
+    cursor: pointer;
+    margin-top: 1%;
+}
+
+.width60{
+    width: 60%;
+}
+
+.margin-10{
+    margin: 10px;
+}
