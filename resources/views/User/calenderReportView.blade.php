@@ -14,12 +14,12 @@
         </div>
     </div>
 
-    <<div>`</div> class="row" >
+    <div class="row" >
         <div class="col-lg-12">
             <div class="panel panel-default">
                 <div class="panel-heading">
                     <h3 class="panel-title"><i class="fa fa-edit fa-fw"></i> Event Search</h3>
-                </div>p
+                </div>
                 <div class="panel-body">
                     {!! Form::open(array('id' => 'event', 'accept-charset' => 'utf-8', 'class' => 'form-horizontal', 'method' => 'post', 'url' => 'user/calender-report')) !!}
                     <div class="form-group">
