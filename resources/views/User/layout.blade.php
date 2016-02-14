@@ -7,8 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
+    <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
 
     <title>Appointment Scheduler System</title>
+    <?php  
+ header("Content-Type: text/html;charset=UTF-8");
+    ?>
 
     {!! HTML::script('js/jquery-2.0.3.min.js') !!}
             <!-- Bootstrap Core CSS -->
@@ -80,7 +84,9 @@
         ga('send', 'pageview');
 
     </script>
+ 
     @yield('asset')
+
 </head>
 
 <body>

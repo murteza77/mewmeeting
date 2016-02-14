@@ -1,7 +1,7 @@
 <html>
 	<head>
 		<link href='//fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
-
+		<meta charset="UTF-8">
 		<style>
 			body {
 				margin: 0;

@@ -1,5 +1,9 @@
 @extends('User.layout')
 @section('content')
+
+<?php 
+ header("Content-Type: text/html;charset=UTF-8");
+?>
     <div class="row">
         <div class="col-lg-12">
             <h1 class="page-header">
@@ -20,16 +24,24 @@
                 <div class="panel-heading">
                     <h3 class="panel-title"><i class="fa fa-edit fa-fw"></i> Create Event</h3>
                 </div>
+
                 <div class="panel-body">
-                    {!! Form::open(array('id' => 'event', 'accept-charset' => 'utf-8', 'class' => 'form-horizontal',  'ng-submit'=>'create($event)')) !!}
+
+ 
+
+
+                    {!! Form::open(array('id' => 'event', 'class' => 'form-horizontal',  'ng-submit'=>'create($event)')) !!}
                     <div class="form-group">
-                        <label for="inputEmail3" class="col-sm-2 control-label">Title</label>
+                        <label for="inxputEmail3" class="col-sm-2 control-label">Title</label>
 
                         <div class="col-sm-10">
-                            <input type="text" class="form-control input" name="title" id="inputEmail3" required
-                                   placeholder="Title" style="width: 60%">
+                         
+                            <input type="text" class="form-control" name="title" id="inputEmail3" placeholder="Enter the title" style="width: 60%">
+
                         </div>
                     </div>
+                  
+
                     <div class="form-group">
                         <label for="inputEmail3" class="col-sm-2 control-label">Start Time</label>
 
@@ -38,6 +50,7 @@
                                    placeholder="Start Time" style="width: 60%">
                         </div>
                     </div>
+
                     <div class="form-group">
                         <label for="inputEmail3" class="col-sm-2 control-label">End Time</label>
 

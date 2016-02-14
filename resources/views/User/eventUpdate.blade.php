@@ -26,7 +26,7 @@
                         <label for="inputEmail3" class="col-sm-2 control-label">Title</label>
 
                         <div class="col-sm-10">
-                            <input type="text" class="form-control input" name="title" id="inputEmail3" required
+                            <input type="text" class="form-control " name="title" id="inputEmail3" required
                                    placeholder="Title" value="{!! $event->title !!}" style="width: 60%">
                             <input type="hidden" name="id" value="{!! $event->id !!}">
                         </div>

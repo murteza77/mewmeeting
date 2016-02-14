@@ -25,14 +25,14 @@
                     <div class="form-group">
                         <label for="inputEmail3" class="col-sm-2 control-label">First Name</label>
                         <div class="col-sm-10">
-                            <input type="text" class="form-control input" name="first_name" required placeholder="First Name" style="width: 60%" value="{!! Auth::user()->first_name !!}">
+                            <input type="text" class="form-control " name="first_name" required placeholder="First Name" style="width: 60%" value="{!! Auth::user()->first_name !!}">
                             <input type="hidden" name="id" required value="{!! Auth::user()->id !!}">
                         </div>
                     </div>
                     <div class="form-group">
                         <label for="inputEmail3" class="col-sm-2 control-label">Last Name</label>
                         <div class="col-sm-10">
-                            <input type="text" class="form-control input" name="last_name" required placeholder="Last Name" style="width: 60%" value="{!! Auth::user()->last_name !!}">
+                            <input type="text" class="form-control " name="last_name" required placeholder="Last Name" style="width: 60%" value="{!! Auth::user()->last_name !!}">
                         </div>
                     </div>
                     <div class="form-group">
