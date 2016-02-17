@@ -102,7 +102,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Meeting Scheduler</a>
+            <a class="navbar-brand" href="#">MEW Meeting Scheduler</a>
         </div>
         <!-- /.navbar-header -->
         <ul class="nav navbar-top-links navbar-right">
